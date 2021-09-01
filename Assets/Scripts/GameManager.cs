@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
 
         foreach (GameObject enemy in enemies)
         {
-            for (int indx = 0; indx < Random.Range(1, 4); indx++)
+            for (int indx = 0; indx < Random.Range(2, 4); indx++)
             {
                 Instantiate(enemy, new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY)), Quaternion.identity);
             }
